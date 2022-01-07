@@ -22,7 +22,7 @@ spec:
           service:
             name: tweet
             port:
-              name: https
+              number: 443
   tls:
     - hosts:
       - tweet.kinder.com
