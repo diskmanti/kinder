@@ -11,6 +11,7 @@ spec:
       labels:
         app: tweet
     spec:
+      serviceAccount: tweet
       containers:
       - name: tweet
         image: diskmanti/linux_tweet_app:v1
