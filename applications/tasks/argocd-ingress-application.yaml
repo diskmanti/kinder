@@ -1,15 +1,15 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: nginx-ingress
+  name: argocd-ingress
   namespace: argocd
   annotations:
-    argocd.argoproj.io/sync-wave: "1"
+    argocd.argoproj.io/sync-wave: "2"
 spec:
   project: default
   source:
     repoURL: git@github.com:diskmanti/kinder.git
-    path: components/nginx-ingress
+    path: components/argocd-ingress
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
