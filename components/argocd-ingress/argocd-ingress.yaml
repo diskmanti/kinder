@@ -14,14 +14,16 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: kinder.com
-    http:
+  - http:
       paths:
-      - path: /*
+      - path: /
         pathType: Prefix
         backend: 
           service:
             name: argocd-server
             port:
-              number: 80
+              name: https
+  tls:
+    - hosts:
+      - kinder.com
      
