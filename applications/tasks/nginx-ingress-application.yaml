@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: git@github.com:diskmanti/kinder.git
-    path: componenets/nginx-ingress
+    path: components/nginx-ingress
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc

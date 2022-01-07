@@ -28,7 +28,7 @@ kubectl apply -k bootstrap/overlays
 
 ### AppOfApps
 
-All the applications deployed on the cluster are managed using the AppOfApps approach.
+All the applications deployed on the cluster are managed using the [AppOfApps](https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/#app-of-apps) approach.
 
 The cluster configuration is kickstarted by the cluster-config application, which is also named cluster-config.
 
