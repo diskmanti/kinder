@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tweet
+spec:
+  selector:
+    matchLabels:
+      app: tweet
+  template:
+    metadata:
+      labels:
+        app: tweet
+    spec:
+      containers:
+      - name: tweet
+        image: diskmanti/linux_tweet_app:v1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
