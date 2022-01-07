@@ -14,7 +14,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: argocd.kinder.com
+    http:
       paths:
       - path: /
         pathType: Prefix
@@ -25,5 +26,6 @@ spec:
               name: https
   tls:
     - hosts:
-      - kinder.com
+      - argocd.kinder.com
+      secretName: argocd-secret # do not change, this is provided by Argo CD
      
