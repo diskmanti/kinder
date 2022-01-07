@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/diskmanti/kinder.git
+    repoURL: git@github.com:diskmanti/kinder.git
     path: applications/tasks
     targetRevision: HEAD
   destination:
