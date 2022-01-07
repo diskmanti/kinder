@@ -26,5 +26,5 @@ spec:
   tls:
     - hosts:
       - kinder.com
-      secretName: tweet-secret # do not change, this is provided by Argo CD
+      # secretName: tweet-secret # do not change, this is provided by Argo CD
      
