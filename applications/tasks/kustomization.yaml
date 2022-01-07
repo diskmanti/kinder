@@ -5,3 +5,4 @@ resources:
   - nginx-ingress-application.yaml
   - cert-manager-application.yaml
   - argocd-ingress-application.yaml
+  - tweet-application.yaml
