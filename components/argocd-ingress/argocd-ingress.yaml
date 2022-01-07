@@ -21,7 +21,7 @@ spec:
   - host: kinder.com
     http:
       paths:
-      - path: argocd
+      - path: /argocd
         pathType: Prefix
         backend: 
           service:
