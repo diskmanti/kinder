@@ -19,7 +19,7 @@ spec:
   ingressClassName: nginx
   rules:
   - host: argocd.example.com
-    https:
+    http:
       paths:
       - path: /
         pathType: Prefix
