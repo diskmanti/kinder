@@ -18,10 +18,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: argocd.example.com
+  - host: kinder.com
     http:
       paths:
-      - path: /
+      - path: /argocd
         pathType: Prefix
         backend: 
           service:
