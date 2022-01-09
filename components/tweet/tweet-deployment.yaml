@@ -21,4 +21,7 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 80
-        - containerPort: 443
+          protocol: TCP
+          name: http
+        # - containerPort: 443
+        #   protocol: TCP
