@@ -1,5 +1,18 @@
 # Kinder
 
+## Table of contents
+
+- [Kinder](#kinder)
+  - [Cluster Creation](#cluster-creation)
+  - [Repo Structure](#repo-structure)
+    - [Bootstrap](#bootstrap)
+    - [Applications](#applications)
+    - [Components](#components)
+  - [Cluster Bootstrap](#cluster-bootstrap)
+    - [AppOfApps](#appofapps)
+  - [Linux_Tweet_App](#linux_tweet_app)
+  - [The Reason Why?](#the-reason-why)
+
 ## Cluster Creation
 
 This cluster is based on [kind](https://kind.sigs.k8s.io/). The config file that kind consumes, to create the cluster, is located in the root of the repo.
