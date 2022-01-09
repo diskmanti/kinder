@@ -13,10 +13,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: kinder.com
+  - host: tweet.kinder.com
     http:
       paths:
-      - path: /tweet
+      - path: /
         pathType: Prefix
         backend: 
           service:
@@ -26,5 +26,5 @@ spec:
   tls:
     - hosts:
       - kinder.com
-      # secretName: tweet-secret # do not change, this is provided by Argo CD
+      secretName: tweet-secret
      
