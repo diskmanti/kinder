@@ -1,7 +1,5 @@
 # Kinder
 
-## Table of contents
-
 - [Kinder](#kinder)
   - [Cluster Creation](#cluster-creation)
   - [Repo Structure](#repo-structure)
