@@ -22,8 +22,8 @@ spec:
             name: tweet
             port:
               name: http
-    tls:
-    - hosts:
-      - tweet.kinder.com
-      secretName: tweet-secret
+    # tls:
+    # - hosts:
+    #   - tweet.kinder.com
+    #   secretName: tweet-certificate
      
