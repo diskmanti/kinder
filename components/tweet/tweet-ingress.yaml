@@ -26,6 +26,6 @@ spec:
               number: 80
   tls:
     - hosts:
-      - kinder.com
+      - tweet.kinder.com
       secretName: tweet-secret
      
